@@ -1,11 +1,31 @@
 {
-  "name": "api",
+  "name": "telegram-messages-schedule-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "production": "node index.js",
+    "serve": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joao-salomao/telegram-messages-schedule-api.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joao-salomao/telegram-messages-schedule-api/issues"
+  },
+  "homepage": "https://github.com/joao-salomao/telegram-messages-schedule-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bookshelf": "^1.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.16",
+    "nodemon": "^2.0.6",
+    "sqlite3": "^5.0.0"
+  }
 }
